@@ -6,7 +6,7 @@ Encryption util; two flavours: Sodium (preferred), or Sugar.
 ## Getting Started
 
 ```bash
-composer require ssitu/sod
+$ composer require ssitu/sod
 ```
 
 ## How to
