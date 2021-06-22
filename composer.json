@@ -1,0 +1,23 @@
+{
+    "name": "ssitu/sod",
+    "description": "Encryption util; two flavours: Sodium (preferred), or Sugar.",
+    "type": "library",
+    "keywords" :["php", "encryption"],
+    "homepage":"https://github.com/I-is-as-I-does/Sod",
+    "license": "MIT",
+    "readme":"README.md",
+    "authors": [
+        {
+            "name": "I-is-as-I-does",
+            "email": "66915011+I-is-as-I-does@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+   
+    "autoload": {
+        "psr-4": {
+            "SSITU\\Sod\\": "src"
+        }
+    }
+}
