@@ -84,7 +84,7 @@ class Sod implements Sod_i
 
     private function Trade()
     {
-        $Trade = $this->flavour . 'Crypt';
+        $Trade = 'SSITU\Sod\Trades\\'.$this->flavour . 'Crypt';
 
         if(empty($this->$Trade)){
             $this->$Trade = new $Trade($this);
